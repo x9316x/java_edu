@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class les1task1 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
+        System.out.println("Введите n:");
         int n =  iScanner.nextInt();
         iScanner.close();
         
@@ -16,7 +17,9 @@ public class les1task1 {
             sum = sum + i;
             prod = prod * i;
         }
+        System.out.println("Сумма чисел:");
         System.out.println(sum);
+        System.out.println("Произведение чисел:");
         System.out.println(prod);
     }
     
